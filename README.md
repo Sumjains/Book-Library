@@ -21,23 +21,23 @@ To experience the Book-Library project, follow these steps:
 2. Open MySQL workbench application: (Setting up database)
    Execute all the scripts from "Book Library Project/01-starter-files/Scripts" path folder.
 
-3. Open an IDE to run Spring boot application:
-   Select this path "Book Library Project/02-backend/spring-boot-library/spring-boot-library" as your root directory.
-   Open application.properties file from the same, and provide the Client ID and Issuer ID from your Okta developer account.
+3. Open an IDE to run Spring boot application: (Getting database up and running)
+   Select this as your root directory: "Book Library Project/02-backend/spring-boot-library/spring-boot-library".
+   Open application.properties file from the same, and provide the Client ID and Issuer ID from your Okta developer account and application.
    Build and Run the application. Our back end server is ON!
 
- 4. Navigate to "Book Library Project/03-frontend/react-library/src/lib/oktaConfig.ts" from an IDE or notepad++ to configure Okta       application server for the front-end of the application.
-change {issuer Id} with your okta issuer ID.
-change {client ID} with your okta application client ID.
+ 5. Open OktaConfig.ts file from: "Book Library Project/03-frontend/react-library/src/lib/oktaConfig.ts" to configure Okta       application server for the front-end of the application.
+change the {Issuer Id} with your okta issuer ID.
+change {Client ID} with your okta application client ID.
 We are all set!
 
-5. Navigate to the project directory in cmd:
-   Book Library Project/03-frontend/react-library
+6. Navigate to the project directory in cmd:
+   "Book Library Project/03-frontend/react-library"
 
-6. Run the project:
+7. Run the project:
    npm start
 
-7. Access the project in your web browser at `http://localhost:3000`.
+8. Access the project in your web browser at `http://localhost:3000`.
 
 ## Technologies Used
 
